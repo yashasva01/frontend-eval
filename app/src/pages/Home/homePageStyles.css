@@ -1,0 +1,14 @@
+.Homepage{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+.header{
+    flex:none;
+}
+.main-body{
+    flex: 1;
+}
+.footer{
+    flex:none;
+}

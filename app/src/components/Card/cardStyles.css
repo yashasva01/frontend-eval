@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700;800&family=Big+Shoulders+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700;800&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:wght@200&display=swap');
+
+.eventCard{
+    border: 1px solid black;
+    height: 550px;
+    width: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 40px;
+}
+.eventImage{
+    height: 40%;
+    width: 400px;
+}
+/* hr{
+    background-color: white;
+    height: 3px;
+    translate: transform(0, 50%);
+} */
+
+.eventDetails{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+.eventDetails #eventTitle{
+    font-size: 20px;
+    height: 20%;
+    font-weight: bold;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-family: 'Big Shoulders Text', cursive;
+    padding: 10px 10px 10px 0px;
+    overflow-y: scroll;
+}
+
+.registration > p{
+    color: white;
+}
+#cardEventFont{
+    font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Sofia Sans', sans-serif;
+}
+
+.eventDetails .actions{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+.registration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#eventDescription{
+    height: 170px;
+    overflow-y: hidden;
+    padding: 10px 0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#eventDate{
+    height: 20px;
+    overflow-y: hidden;
+}
+#eventLocation{
+    height: 20px;
+    overflow-y: hidden;
+}
+#bookmark{
+    padding: 0px 30px;
+}
+@media screen and (max-width: 450px) {
+    #registertag {
+     display: none;   
+    }
+  }

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700;800&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:wght@200&display=swap');
+.main-body{
+    padding: 20px 80px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Sofia Sans', sans-serif;
+font-size: medium;
+}
+#filter-icon{
+    height: 20px;
+    width: 20px;
+}
+.searchAndFilter{
+    padding: 0px 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.filterDropDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#searchIcon{
+    height: 20px;
+    width: 20px;
+}
+.filterDropDown > img{
+    padding: 0px 10px;
+}
+

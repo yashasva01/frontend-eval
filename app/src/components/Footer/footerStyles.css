@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@400;700;800&family=Big+Shoulders+Text:wght@700&family=Sofia+Sans:ital,wght@0,200;0,400;1,400&display=swap');
+.footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.footer{
+    font-size: 20px;
+    padding: 0px 0px 0px 190px;
+    font-family: 'Big Shoulders Inline Display', cursive;
+font-family: 'Big Shoulders Text', cursive;
+font-family: 'Sofia Sans', sans-serif;
+}
